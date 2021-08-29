@@ -1,0 +1,96 @@
+
+#main-tag
+{
+    display: flex;
+}
+#top-row-headings
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 9px;
+    font-family: Arial;
+    font-style: normal;
+    -webkit-font-smoothing: none;
+   
+
+}
+
+#left-headings
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    margin: 15px;
+    
+}
+
+#right-headings
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    margin: 15px;
+    
+
+}
+
+
+.visual-elements
+{
+    display: flex;
+    justify-content: center;
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+#logo-image
+{
+    max-width: 100%;
+    margin-top: 250px; 
+}
+
+#magnifying-glass
+{
+    flex: 2;
+    flex-shrink: initial;
+    margin: 0px;
+    padding: 0px;
+}
+
+#bottom-row-headings
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: Arial;
+    font-style: normal;
+    -webkit-font-smoothing: none;
+    margin-top: 350px;
+    background-color: rgb(226, 223, 223);
+}
+
+#left-bottom-headings
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin: 15px;
+    
+}
+
+#right-bottom-headings
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin: 15px;
+    
+}
